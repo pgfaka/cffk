@@ -28,12 +28,12 @@ type CacheEntry = {
 const CACHE_TTL_MS = 60_000;
 let settingsCache: CacheEntry | null = null;
 
-export const DEFAULT_FOOTER_TEXT = "© 2026 CFFK 基于 GitHub 开源";
-export const DEFAULT_SUPPORT_CONTACT = "TG互助群|https://t.me/edgeKeyGroup";
+export const DEFAULT_FOOTER_TEXT = "© 2026 PGshop";
+export const DEFAULT_SUPPORT_CONTACT = "";
 
 const defaultSettings: SiteSettingRecord = {
   id: 1,
-  siteName: "CFFK-Shop",
+  siteName: "PGshop",
   siteUrl: null,
   siteSubtitle: null,
   logo: null,
